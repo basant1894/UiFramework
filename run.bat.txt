@@ -1,0 +1,2 @@
+cd D:\Workspace6\UiFramework
+mvn clean install

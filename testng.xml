@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <!-- <test thread-count="5" name="Test"> -->
+  
+  <listeners>
+      <listener class-name="utilities.Reporting"></listener>
+  </listeners>
+  
+  <test name="BankingApp Test">
+      <parameter name="browser" value="chrome" />
+  
+    <classes>
+     
+        <class name="testCases.TC_LoginTest_001"/> 
+       <class name="testCases.TC_LoginDDT_002"/> 
+       <class name="testCases.TC_AddNewCustomer_003"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

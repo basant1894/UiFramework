@@ -1,0 +1,10 @@
+testCases\BaseClass.class
+pageObjects\LoginPage.class
+testCases\TC_LoginTest_001.class
+utilities\XLUtils.class
+utilities\Reporting.class
+testCases\TC_AddNewCustomer_003.class
+testCases\TC_LoginDDT_002.class
+pageObjects\AddCustomerPage.class
+utilities\EmailConfiguration.class
+utilities\ReadConfig.class
